@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MachUpX Aircraft Designer</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "/static/vendor/three.module.min.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Top Menu Bar -->
+  <header id="menubar">
+    <div class="menu-left">
+      <div class="menu-item brand">
+        MachUp
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="about">About MachUpX GUI</div>
+          <div class="menu-action" data-cmd="axis-help">Axis Conventions (+X fwd, +Y right, +Z down)</div>
+        </div>
+      </div>
+      <div class="menu-item">
+        File
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="new">New</div>
+          <div class="menu-action" data-cmd="open">Open Project...</div>
+          <div class="menu-action" data-cmd="save">Save Project As...</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="ex-traditional">Load Example: Traditional</div>
+          <div class="menu-action" data-cmd="ex-flying-wing">Load Example: Flying Wing</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="export-mx">Export MachUpX JSONs</div>
+          <div class="menu-action" data-cmd="export-stl">Export STL (via MachUpX)</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="exit">Exit</div>
+        </div>
+      </div>
+      <div class="menu-item">
+        Edit
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="duplicate">Duplicate Selected <span>Ctrl+D</span></div>
+          <div class="menu-action" data-cmd="delete">Delete Selected <span>Del</span></div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="aircraft-settings">Aircraft &amp; Solver Settings...</div>
+        </div>
+      </div>
+      <div class="menu-item">
+        Add
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="add-group">Group</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="add-wing">Wing</div>
+          <div class="menu-action" data-cmd="add-propeller">Propeller</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="add-box">Box</div>
+          <div class="menu-action" data-cmd="add-circle">Circle</div>
+          <div class="menu-action" data-cmd="add-cylinder">Cylinder</div>
+          <div class="menu-action" data-cmd="add-sphere">Sphere</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="add-pointlight">PointLight</div>
+          <div class="menu-action" data-cmd="add-spotlight">SpotLight</div>
+          <div class="menu-action" data-cmd="add-directionallight">DirectionalLight</div>
+          <div class="menu-action" data-cmd="add-hemispherelight">HemisphereLight</div>
+          <div class="menu-action" data-cmd="add-ambientlight">AmbientLight</div>
+        </div>
+      </div>
+      <div class="menu-item">
+        View
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="theme-light">Light Theme</div>
+          <div class="menu-action" data-cmd="theme-dark">Dark Theme</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="cam-iso">Isometric View</div>
+          <div class="menu-action" data-cmd="cam-top">Top View</div>
+          <div class="menu-action" data-cmd="cam-front">Front View</div>
+          <div class="menu-action" data-cmd="cam-side">Side View</div>
+          <div class="menu-sep"></div>
+          <div class="menu-action" data-cmd="toggle-results">Toggle Results Drawer</div>
+        </div>
+      </div>
+      <div class="menu-item">
+        Help
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="axis-help">Axis Conventions</div>
+          <div class="menu-action" data-cmd="shortcuts">Keyboard Shortcuts</div>
+        </div>
+      </div>
+      <div class="menu-item">
+        Tutorials
+        <div class="menu-dropdown">
+          <div class="menu-action" data-cmd="tut-conventional">Conventional Aircraft Workflow</div>
+          <div class="menu-action" data-cmd="tut-trim">Pitch Trim &amp; Static Margin</div>
+        </div>
+      </div>
+    </div>
+    <div class="menu-right">
+      <span id="solver-status">Ready (MachUpX 2.7.2)</span>
+      <label style="display:flex;align-items:center;gap:4px;cursor:pointer;">
+        <input type="checkbox" id="chk-autosave" checked /> Autosave
+      </label>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <div id="workspace">
+    <div id="viewport-wrap">
+      <div id="viewport">
+        <div id="viewport-hud">
+          <div><b>Body Frame:</b> +X Forward (Red) · +Y Right (Green) · +Z Down (Blue)</div>
+          <div id="hud-selected">Selected: None</div>
+        </div>
+      </div>
+
+      <!-- Detailed Results Drawer -->
+      <div id="results-drawer">
+        <div class="drawer-header">
+          <div class="drawer-tabs">
+            <div class="drawer-tab active" data-tab="forces">Forces &amp; Moments</div>
+            <div class="drawer-tab" data-tab="derivatives">Derivatives</div>
+            <div class="drawer-tab" data-tab="distributions">Spanwise Distributions</div>
+            <div class="drawer-tab" data-tab="raw">Raw JSON</div>
+          </div>
+          <button class="btn" id="btn-close-drawer">Close</button>
+        </div>
+        <div class="drawer-content" id="drawer-content">
+          <div style="color:#666;">Run an analysis from the ANALYSIS panel to inspect results.</div>
+        </div>
+      </div>
+
+      <!-- Bottom Viewport Controls -->
+      <div id="bottombar">
+        <div class="bottom-left">
+          <label style="display:flex;align-items:center;gap:4px;cursor:pointer;">
+            <input type="checkbox" id="chk-grid" checked /> Grid
+          </label>
+          <label style="display:flex;align-items:center;gap:4px;cursor:pointer;">
+            <input type="checkbox" id="chk-snap" /> Snap
+          </label>
+          <input type="number" id="inp-snap" class="num-blue" value="1.0000" step="0.1" style="width:64px;" />
+        </div>
+        <div class="bottom-right">
+          <span>Gizmo:</span>
+          <button class="tool-btn active" data-mode="translate" title="Translate (T)">Move (T)</button>
+          <button class="tool-btn" data-mode="rotate" title="Rotate (R)">Rotate (R)</button>
+          <button class="tool-btn" data-mode="scale" title="Scale (S)">Scale (S)</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Inspector Sidebar -->
+    <aside id="sidebar">
+      <!-- COMPONENT TREE -->
+      <div class="panel-section" id="sec-tree">
+        <div class="panel-header"><span class="tri">▾</span> COMPONENT TREE</div>
+        <div class="panel-body">
+          <div id="component-tree"></div>
+        </div>
+      </div>
+
+      <!-- OBJECT -->
+      <div class="panel-section" id="sec-object">
+        <div class="panel-header"><span class="tri">▾</span> OBJECT</div>
+        <div class="panel-body" id="object-panel-body"></div>
+      </div>
+
+      <!-- GEOMETRY -->
+      <div class="panel-section" id="sec-geometry">
+        <div class="panel-header"><span class="tri">▾</span> GEOMETRY</div>
+        <div class="panel-body" id="geometry-panel-body"></div>
+      </div>
+
+      <!-- MATERIAL -->
+      <div class="panel-section collapsed" id="sec-material">
+        <div class="panel-header"><span class="tri">▸</span> MATERIAL</div>
+        <div class="panel-body" id="material-panel-body"></div>
+      </div>
+
+      <!-- CONDITION -->
+      <div class="panel-section" id="sec-condition">
+        <div class="panel-header"><span class="tri">▾</span> CONDITION</div>
+        <div class="panel-body" id="condition-panel-body"></div>
+      </div>
+
+      <!-- ANALYSIS -->
+      <div class="panel-section" id="sec-analysis">
+        <div class="panel-header"><span class="tri">▾</span> ANALYSIS</div>
+        <div class="panel-body" id="analysis-panel-body"></div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Hidden file input for Open Project -->
+  <input type="file" id="file-open-input" accept=".json" style="display:none;" />
+
+  <!-- Modal -->
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal">
+      <div class="modal-head">
+        <span id="modal-title">Settings</span>
+        <button class="btn" id="modal-close">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-foot" id="modal-foot"></div>
+    </div>
+  </div>
+
+  <!-- Loading Overlay ("Just a sec...") -->
+  <div id="loading-overlay">
+    <div class="loading-box">Just a sec...</div>
+  </div>
+
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

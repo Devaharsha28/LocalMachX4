@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Reference video frames (copyrighted material — not for distribution)
+MachUp_Conventional_Aircraft_Overview_-_USU_AeroLab__720p__h264__frames/
+reference/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Vendored upstream repos: keep only what the app needs
+vendor/MachUp_Py/
+vendor/MachUpX/dev/
+vendor/MachUpX/docs/
+vendor/MachUpX/test/
+vendor/MachUpX/build/
+vendor/MachUpX/MachUpX.egg-info/
+vendor/AirfoilDatabase/build/
+vendor/AirfoilDatabase/dev/
+vendor/AirfoilDatabase/docs/
+vendor/AirfoilDatabase/examples/
+vendor/AirfoilDatabase/airfoil_db.egg-info/

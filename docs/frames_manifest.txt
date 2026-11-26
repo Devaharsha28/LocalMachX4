@@ -1,0 +1,657 @@
+# MachUpX UI Reference Frames Manifest
+# Format: path	status	note
+# Total files: 650
+# Sources:
+#   root/: MachUp_Conventional_Aircraft_Overview_-_USU_AeroLab__720p__h264__frames/ (150 frames + 1 duplicate)
+#   some_frames/: some_frames/ subdirectory (499 frames, 002-500, no gaps)
+
+root/frame_001 (2).jpg	viewed	Title card displaying "Mission Specific Aircraft Design Part 3/3" on a gray grad
+root/frame_001.jpg	viewed	Title card displaying "MachUp Conventional Aircraft Overview" on a gray gradient
+root/frame_002.jpg	viewed	MachUp web app (blucraft.com/mu2/) showing a default swept flying wing with wing
+root/frame_003.jpg	viewed	Same UI state as previous, with the 3D viewport orbited slightly to a higher fro
+root/frame_004.jpg	viewed	File dropdown menu is open showing New (hovered/highlighted), Open, Save As..., 
+root/frame_005.jpg	viewed	File menu closed; bottom-left browser status bar displays "Waiting for www.blucr
+root/frame_006.jpg	viewed	New empty scene loaded: 3D viewport displays only the grid and red origin dot; C
+root/frame_007.jpg	viewed	Same as previous, with the cursor moved over the origin at the center of the 3D 
+root/frame_008.jpg	viewed	Add dropdown menu is open showing Group (hovered/highlighted), Wing, Propeller; 
+root/frame_009.jpg	viewed	A wing assembly has been added: COMPONENT TREE now contains Wing_1 and child Win
+root/frame_010.jpg	viewed	3D viewport zoomed in on Wing_1 with its transform gizmo; cursor positioned near
+root/frame_011.jpg	viewed	GEOMETRY panel for Wing_1 expanded, showing Main Wing (checked), Side (Both), y-
+root/frame_012.jpg	viewed	Same as previous, with Wing_1 Semispan set to 3 and Root Chord actively being ed
+root/frame_013.jpg	viewed	Wing_2 is selected (OBJECT: Name Wing_2, Connect To Wing_1). Wing_2 GEOMETRY sho
+root/frame_014.jpg	viewed	Wing_2 GEOMETRY updated with Root Chord 0.8 and Tip Chord 0.5, producing tapered
+root/frame_015.jpg	viewed	3D viewport rotated to a spanwise/side view; Wing_2 Semispan updated from 4.0000
+root/frame_016.jpg	viewed	3D viewport orbited back to an oblique perspective view of the two-section wing;
+root/frame_017.jpg	viewed	Wing_2 GEOMETRY Dihedral (deg) changed to 4, visibly angling the outer wing pane
+root/frame_018.jpg	viewed	Wing_2 GEOMETRY Washout (deg) changed to 2 (Semispan 2, Dihedral 4, Root Chord 0
+root/frame_019.jpg	viewed	Wing_1 selected again (Connect To: MyAirplane, Semispan: 3.0000, Root Chord: 0.9
+root/frame_020.jpg	viewed	Wing_1 Control Surface sub-panel expanded showing Has control surface (checked),
+root/frame_021.jpg	viewed	Wing_1 Control Surface values edited: C_f (root) set to 0.3, C_f (tip) set to 0,
+root/frame_022.jpg	viewed	Wing_1 Control Surface C_f (tip) updated to 0.3; cursor hovering over Tip/Span (
+root/frame_023.jpg	viewed	Wing_1 Control Surface Tip/Span updated to 1 while Root/Span input field is acti
+root/frame_024.jpg	viewed	Wing_1 Control Surface Root/Span set to 0.15 and Elevator Mix changed to 0; Rudd
+root/frame_025.jpg	viewed	Wing_1 Control Surface Flap Mix set to 1; cursor hovering over the collapsed ANA
+root/frame_026.jpg	viewed	CONDITION panel expanded at bottom right displaying Alpha (deg) 1.0000, Beta (de
+root/frame_027.jpg	viewed	Flap (deg) in CONDITION set to 15; 3D viewport rotated to a top-down oblique vie
+root/frame_028.jpg	viewed	Same UI state as previous, with the 3D viewport orbited to a lower rear-quarter 
+root/frame_029.jpg	viewed	Flap (deg) in CONDITION increased to 45; 3D viewport shows a rear view of the wi
+root/frame_030.jpg	viewed	Wing_2 GEOMETRY panel scrolled into view (Semispan 2.0000, Washout 2.0000, Dihed
+root/frame_031.jpg	viewed	Wing_2 Control Surface sub-panel expanded showing Has control surface (checked),
+root/frame_032.jpg	viewed	Wing_2 Control Surface Tip/Span changed to 1; Elevator Mix (1.0000) input field 
+root/frame_033.jpg	viewed	Wing_2 Control Surface Elevator Mix changed to 0 and Aileron Mix changed to 1.
+root/frame_034.jpg	viewed	CONDITION Aileron (deg) set to 15 (Flap remains 45); Wing_2 is highlighted with 
+root/frame_035.jpg	viewed	3D viewport orbited underneath the grid plane looking up at the wing underside w
+root/frame_036.jpg	viewed	Add dropdown menu opened (Group, Wing, Propeller, primitives, lights) while 3D v
+root/frame_037.jpg	viewed	Edit dropdown menu opened showing Duplicate Selected and Delete Selected; Wing_1
+root/frame_038.jpg	viewed	Wing_3 (duplicated from Wing_1) appears in COMPONENT TREE and is selected. The O
+root/frame_039.jpg	viewed	Wing_3 Connect To set to Wing_1 (shown indented under Wing_1 in COMPONENT TREE),
+root/frame_040.jpg	viewed	Wing_3 Name field being edited to "H-Stab", and Connect To changed back to MyAir
+root/frame_041.jpg	viewed	Wing_3 renamed to H-Stab at the top level under MyAirplane in COMPONENT TREE and
+root/frame_042.jpg	viewed	H-Stab GEOMETRY Root Chord being edited to 0.6 (Semispan 3.0000, Tip Chord 0.800
+root/frame_043.jpg	viewed	H-Stab GEOMETRY updated with Semispan 1, Root Chord 0.6, and Tip Chord 0.4, visi
+root/frame_044.jpg	viewed	H-Stab GEOMETRY Semispan updated to 1.4 (Root Chord 0.6, Tip Chord 0.4).
+root/frame_045.jpg	viewed	3D viewport orbited to a rear-quarter view showing the main wing (with deflected
+root/frame_046.jpg	viewed	H-Stab GEOMETRY Sweep (deg) being edited to 1.7, slightly sweeping the horizonta
+root/frame_047.jpg	viewed	H-Stab GEOMETRY Sweep (deg) updated to 5, visibly increasing the aft sweep of th
+root/frame_048.jpg	viewed	3D viewport orbited to a side-rear angle; H-Stab Control Surface expanded and "H
+root/frame_049.jpg	viewed	H-Stab Control Surface "Has control surface" re-checked; Root/Span changed to 0.
+root/frame_050.jpg	viewed	H-Stab Control Surface Root/Span set to 0, Tip/Span set to 1, and C_f (root) act
+root/frame_051.jpg	viewed	H-Stab selected with 3D gizmo; right panel shows Control Surface bottom fields (
+root/frame_052.jpg	viewed	COMPONENT TREE visible at top right (Center of Gravity, Aerodynamic Center, Poin
+root/frame_053.jpg	viewed	New Wing_4 added to COMPONENT TREE and selected (gizmo at origin overlapping mai
+root/frame_054.jpg	viewed	Same as previous, except OBJECT Name field edited to 'V-Stab' and cursor moves o
+root/frame_055.jpg	viewed	Wing_4 renamed to 'V-Stab' in COMPONENT TREE; V-Stab dragged aft along red X-axi
+root/frame_056.jpg	viewed	OBJECT 'Connect To' dropdown opened for V-Stab showing options: MyAirplane (chec
+root/frame_057.jpg	viewed	V-Stab Connect To changed to 'H-Stab'; V-Stab shifts aft relative to H-Stab (Pos
+root/frame_058.jpg	viewed	Same as previous, right panel scrolled slightly down; cursor hovers over Semispa
+root/frame_059.jpg	viewed	New 'Group 5' added to COMPONENT TREE and selected (Position 0.0000 0.0000 0.000
+root/frame_060.jpg	viewed	Group 5 renamed to 'Tail' in COMPONENT TREE and OBJECT Name field; cursor remain
+root/frame_061.jpg	viewed	H-Stab and V-Stab are now nested children under 'Tail' in COMPONENT TREE; V-Stab
+root/frame_062.jpg	viewed	V-Stab Connect To changed from H-Stab to 'Tail'; V-Stab moves forward relative t
+root/frame_063.jpg	viewed	V-Stab GEOMETRY Side changed to 'Right' (single half-wing remains) and Dihedral 
+root/frame_064.jpg	viewed	Dihedral 90 applied so V-Stab stands vertically in 3D viewport; panel scrolled d
+root/frame_065.jpg	viewed	Same as previous, except Root Airfoil 'Airfoil (graphics only)' changed to 'NACA
+root/frame_066.jpg	viewed	Right panel scrolled down to expanded Tip Airfoil; cursor hovers over Tip Airfoi
+root/frame_067.jpg	viewed	Tip Airfoil collapsed (cursor clicking Tip Airfoil header); Root Airfoil shows N
+root/frame_068.jpg	viewed	Panel scrolled further down showing collapsed Root/Tip Airfoil, Control Surface,
+root/frame_069.jpg	viewed	Tip Airfoil expanded again showing 'Airfoil (graphics only)' updated to 'NACA 00
+root/frame_070.jpg	viewed	Same as previous, cursor moves down to hover over Max Lift Coefficient 1.4000.
+root/frame_071.jpg	viewed	Same as previous, cursor remains on Max Lift Coefficient 1.4000.
+root/frame_072.jpg	viewed	Same as previous, cursor remains on Max Lift Coefficient 1.4000.
+root/frame_073.jpg	viewed	Panel scrolled down slightly showing Tip Airfoil NACA 0012 fields, Spanwise Segm
+root/frame_074.jpg	viewed	Panel scrolled down to CONDITION (Alpha 1.0000, Beta 0.0000, Elevator 14, Rudder
+root/frame_075.jpg	viewed	Panel scrolled back to top; V-Stab selected under Tail with Position reset to 0.
+root/frame_076.jpg	viewed	H-Stab selected under Tail (Connect To Tail, Position 0.0000 0.0000 0.0000); GEO
+root/frame_077.jpg	viewed	Tail group selected in COMPONENT TREE (Connect To MyAirplane); Tail translated a
+root/frame_078.jpg	viewed	V-Stab selected under Tail (Position -0.1655 0.0000 0.0000, Dihedral 90.0000); c
+root/frame_079.jpg	viewed	Tail group selected again and moved slightly further aft to Position -4.2887 0.0
+root/frame_080.jpg	viewed	V-Stab selected again (Position -0.1655 0.0000 0.0000), cursor moving toward OBJ
+root/frame_081.jpg	viewed	V-Stab Position reset to 0.0000 0.0000 0.0000; cursor hovering over GEOMETRY Roo
+root/frame_082.jpg	viewed	V-Stab Root Chord changed to 0.7 and Tip Chord changed to 0.4; cursor positioned
+root/frame_083.jpg	viewed	V-Stab Semispan changed to 1, shrinking the vertical stabilizer height in the 3D
+root/frame_084.jpg	viewed	3D viewport orbited to rear-right view; V-Stab Sweep (deg) field focused with '1
+root/frame_085.jpg	viewed	Same camera angle; V-Stab Sweep (deg) updated to 20, yellow wireframe box and ye
+root/frame_086.jpg	viewed	Tail deselected (no gizmo), displaying swept V-Stab and H-Stab at aft tail; COMP
+root/frame_087.jpg	viewed	V-Stab re-selected and adjusted to Position 0.2081 0.0000 -0.0370 to align with 
+root/frame_088.jpg	viewed	V-Stab panel scrolled down to expanded Control Surface section: Has control surf
+root/frame_089.jpg	viewed	Same Control Surface view with Tip/Span changed to 1, C_f (root) 0.3, C_f (tip) 
+root/frame_090.jpg	viewed	V-Stab Control Surface mixes updated to Elevator Mix 0 and Rudder Mix 1 (Aileron
+root/frame_091.jpg	viewed	V-Stab deselected; CONDITION Rudder (deg) changed from 0.0000 to 15, deflecting 
+root/frame_092.jpg	viewed	3D viewport orbited to low left-rear angle showing deflected rudder, elevator, f
+root/frame_093.jpg	viewed	V-Stab re-selected (gizmo at tail); GEOMETRY scrolled down with cursor hovering 
+root/frame_094.jpg	viewed	Control Surface expanded on V-Stab and Root/Span changed from 0.2000 to 0.05 (Ti
+root/frame_095.jpg	viewed	Bottom-left Grid checkbox unchecked (ground grid hidden in 3D viewport); COMPONE
+root/frame_096.jpg	viewed	3D viewport orbited to near-front level view of aircraft with ground grid hidden
+root/frame_097.jpg	viewed	3D viewport orbited to near top-down view of aircraft with ground grid hidden.
+root/frame_098.jpg	viewed	3D viewport returned to rear-top isometric view without ground grid; cursor movi
+root/frame_099.jpg	viewed	Top 'Add' menu opened displaying Group, Wing, Propeller, Box, Circle (highlighte
+root/frame_100.jpg	viewed	Same 'Add' menu open with cursor moved down to highlight 'Sphere'.
+root/frame_101.jpg	viewed	'Sphere 6' added to COMPONENT TREE and placed at origin (0.0000, 0.0000, 0.0000)
+root/frame_102.jpg	viewed	3D viewport shows wings, tail, and a newly added Sphere 6 at origin with yellow 
+root/frame_103.jpg	viewed	Same UI state as previous; cursor moved over Scale X value (1.0000) in OBJECT pa
+root/frame_104.jpg	viewed	Sphere 6 Scale X changed to 5.0000 (Scale: 5.0000 1.0000 1.0000), elongating the
+root/frame_105.jpg	viewed	Radius in GEOMETRY panel being edited (cursor over input showing 0.x5), shrinkin
+root/frame_106.jpg	viewed	GEOMETRY Radius set to 0.345, forming a sleeker ellipsoid fuselage around the wi
+root/frame_107.jpg	viewed	3D viewport zoomed in on fuselage and wing; GEOMETRY Radius updated to 0.3, curs
+root/frame_108.jpg	viewed	3D viewport zoomed and orbited to show side/top view of fuselage and wings; righ
+root/frame_109.jpg	viewed	3D viewport orbited/panned slightly so tail tip appears on left and fuselage/win
+root/frame_110.jpg	viewed	Top menu 'Add' dropdown opened, showing Group, Wing, Propeller, Box, Circle, Cyl
+root/frame_111.jpg	viewed	Cylinder 7 added to COMPONENT TREE and displayed at origin with yellow bounding 
+root/frame_112.jpg	viewed	Same 3D view as previous; cursor clicked Radial segments input box (8 highlighte
+root/frame_113.jpg	viewed	Cylinder 7 Radial segments changed to 32 (input highlighted), smoothing the cyli
+root/frame_114.jpg	viewed	Radial segments changed back to 8, showing a faceted octagonal cylinder in the 3
+root/frame_115.jpg	viewed	Radial segments changed back to 32, restoring the smooth cylinder mesh.
+root/frame_116.jpg	viewed	Radial segments changed to 3, turning the cylinder into a triangular prism in th
+root/frame_117.jpg	viewed	Radial segments changed to 4, turning the cylinder into a square prism in the 3D
+root/frame_118.jpg	viewed	Radial segments restored to 32 (smooth cylinder); cursor moved back into 3D view
+root/frame_119.jpg	viewed	Cylinder 7 Rotation Z set to 90.0000 (0.0000 0.0000 90.0000), rotating the cylin
+root/frame_120.jpg	viewed	Radius top changed to 0.1 and cursor over Radius bottom (being edited to 0.1), t
+root/frame_121.jpg	viewed	Radius bottom set to 0.1 while Radius top input is active/cleared to '.'; thin c
+root/frame_122.jpg	viewed	Radius top set to 0.05 and Radius bottom input active with '.05', narrowing the 
+root/frame_123.jpg	viewed	3D viewport zoomed out to show tail; Cylinder 7 Position X moved to -2.7245 (-2.
+root/frame_124.jpg	viewed	Cylinder 7 Position Z adjusted to 0.1335 (-2.7245 0.0000 0.1335), shifting the t
+root/frame_125.jpg	viewed	Selection cleared (no bounding box/gizmo), showing assembled conventional aircra
+root/frame_126.jpg	viewed	Tail group selected (gizmo visible at tail root). OBJECT panel shows Name: Tail,
+root/frame_127.jpg	viewed	Selection cleared; 3D viewport orbited/zoomed slightly to top-right rear-quarter
+root/frame_128.jpg	viewed	3D viewport orbited to a lower side-quarter view showing wing airfoil profile an
+root/frame_129.jpg	viewed	3D viewport orbited slightly; CONDITION collapsed and ANALYSIS expanded showing 
+root/frame_130.jpg	viewed	3D viewport orbited to low front-side view; ANALYSIS panel remains expanded with
+root/frame_131.jpg	viewed	3D viewport orbited slightly higher; CONDITION expanded above ANALYSIS, cursor o
+root/frame_132.jpg	viewed	Flap (deg) changed from 45 to 0, straightening the inboard wing flaps in the 3D 
+root/frame_133.jpg	viewed	Rudder (deg) being edited to 0 and Aileron (deg) set to 0 (Elevator 14, Flap 0),
+root/frame_134.jpg	viewed	Elevator (deg) changed to -10 (Rudder/Aileron/Flap 0), deflecting the horizontal
+root/frame_135.jpg	viewed	3D viewport zoomed out to frame full aircraft from front-right quarter angle; CO
+root/frame_136.jpg	viewed	Sphere 6 (fuselage) selected with yellow bounding box and gizmo; right sidebar s
+root/frame_137.jpg	viewed	MATERIAL panel expanded for Sphere 6 (Color, Emissive, Shininess 30.0000, Opacit
+root/frame_138.jpg	viewed	Colors picker closed; Sphere 6 MATERIAL Color swatch is orange and fuselage is c
+root/frame_139.jpg	viewed	Cylinder 7 (tail boom) selected with yellow bounding box/gizmo; Colors picker re
+root/frame_140.jpg	viewed	H-Stab selected in COMPONENT TREE (faint highlight, gizmo at tail); MATERIAL Col
+root/frame_141.jpg	viewed	H-Stab selected; Colors picker has Aqua selected, coloring the horizontal stabil
+root/frame_142.jpg	viewed	V-Stab selected in COMPONENT TREE; Colors picker has Blueberry selected, colorin
+root/frame_143.jpg	viewed	Wing_1 selected in COMPONENT TREE (yellow wireframe box at wing root); MATERIAL 
+root/frame_144.jpg	viewed	Wing_1 still selected; Colors picker has Cantaloupe selected, coloring the inboa
+root/frame_145.jpg	viewed	Wing_1 still selected; Colors picker has Spring selected, coloring the inboard m
+root/frame_146.jpg	viewed	Wing_2 (indented under Wing_1 in COMPONENT TREE) selected; Colors picker still o
+root/frame_147.jpg	viewed	Colors picker closed and selection cleared; 3D viewport shows fully colored airc
+root/frame_148.jpg	viewed	Same as previous (frame_147.jpg).
+root/frame_149.jpg	viewed	Same as previous (frame_147.jpg).
+root/frame_150.jpg	viewed	Same as previous (frame_147.jpg).
+some_frames/frame_002.jpg	viewed	Title card: Mission Specific Aircraft Design Part 3/3
+some_frames/frame_003.jpg	viewed	Google Sheets General Sizing Blank - top view
+some_frames/frame_004.jpg	viewed	same as previous (Sheets)
+some_frames/frame_005.jpg	viewed	same as previous (Sheets)
+some_frames/frame_006.jpg	viewed	Sheets slight scroll/selection difference
+some_frames/frame_007.jpg	viewed	Sheets slight scroll/selection difference
+some_frames/frame_008.jpg	viewed	Sheets scrolled down showing Propulsion section
+some_frames/frame_009.jpg	viewed	Sheets back to top view
+some_frames/frame_010.jpg	viewed	same as previous (Sheets)
+some_frames/frame_011.jpg	viewed	Sheets cursor moved to toolbar
+some_frames/frame_012.jpg	viewed	same as previous (Sheets)
+some_frames/frame_013.jpg	viewed	same as previous (Sheets)
+some_frames/frame_014.jpg	viewed	MachUp empty scene, 7 menus incl Tutorials, component tree only
+some_frames/frame_015.jpg	viewed	same as 014 tooltip MachUp visible
+some_frames/frame_016.jpg	viewed	same as 014 cursor moved
+some_frames/frame_017.jpg	viewed	same as previous
+some_frames/frame_018.jpg	viewed	same as previous
+some_frames/frame_019.jpg	viewed	same as previous
+some_frames/frame_020.jpg	viewed	same as previous
+some_frames/frame_021.jpg	viewed	same as previous
+some_frames/frame_022.jpg	viewed	same as previous
+some_frames/frame_023.jpg	viewed	same as previous
+some_frames/frame_024.jpg	viewed	same as previous
+some_frames/frame_025.jpg	viewed	same as previous
+some_frames/frame_026.jpg	viewed	Google Sheets full view with all sizing data visible
+some_frames/frame_027.jpg	viewed	Full-screen MachUp UI showing empty 3D viewport with perspective grid ('Grid' ch
+some_frames/frame_028.jpg	viewed	Browser window displaying HobbyKing product page for 'Turnigy 5000mAh 3S 25C Lip
+some_frames/frame_029.jpg	viewed	Google Sheets 'General Sizing Blank Short Course' spreadsheet showing Metric/Eng
+some_frames/frame_030.jpg	viewed	Same Google Sheets sizing spreadsheet scrolled slightly right, cursor hovering o
+some_frames/frame_031.jpg	viewed	Split-screen with Google Sheets on left and MachUp on right; MachUp 'Add' menu i
+some_frames/frame_032.jpg	viewed	'Wing_3' added under MyAirplane in COMPONENT TREE and rendered at origin with RG
+some_frames/frame_033.jpg	viewed	'Wing_3' Semispan updated to '0.735' (matching Main Wing Semispan in spreadsheet
+some_frames/frame_034.jpg	viewed	'Wing_3' Root Chord updated to '0.181' while Tip Chord remains '1.0000'; wing ta
+some_frames/frame_035.jpg	viewed	'Wing_3' Tip Chord updated to '0.145'; 'Grid' checkbox unchecked at bottom-left 
+some_frames/frame_036.jpg	viewed	Center of Gravity red sphere selected in 3D viewport (yellow bounding box); OBJE
+some_frames/frame_037.jpg	viewed	Center of Gravity Radius reduced to '0.025'; cursor moves to 'Aerodynamic Center
+some_frames/frame_038.jpg	viewed	Aerodynamic Center selected in COMPONENT TREE and 3D viewport (yellow bounding b
+some_frames/frame_039.jpg	viewed	'Wing_4' added under MyAirplane in COMPONENT TREE and rendered at origin (zoomed
+some_frames/frame_040.jpg	viewed	'Wing_4' Semispan updated to '0.183' (matching Horizontal Stabilizer in spreadsh
+some_frames/frame_041.jpg	viewed	Same as previous, except 'Wing_4' Root Chord input field is active and cleared f
+some_frames/frame_042.jpg	viewed	'Wing_4' Root Chord updated to '0.072' and Tip Chord to '0.05'; small horizontal
+some_frames/frame_043.jpg	viewed	'Wing_4' Position x-coordinate set to '-0.7000' (moving horizontal stabilizer af
+some_frames/frame_044.jpg	viewed	'Wing_4' Sweep (deg) updated to '5.04'; 3D viewport zoomed in closely on the red
+some_frames/frame_045.jpg	viewed	3D viewport zoomed back out showing Wing_3 (main wing) and Wing_4 (aft horizonta
+some_frames/frame_046.jpg	viewed	'Add' menu open in MachUp with 'Wing' highlighted in blue by the cursor.
+some_frames/frame_047.jpg	viewed	'Wing_5' added under MyAirplane in COMPONENT TREE and selected at origin in zoom
+some_frames/frame_048.jpg	viewed	'Wing_5' Side changed to 'Right' and Semispan set to '0.17' (matching Vertical S
+some_frames/frame_049.jpg	viewed	Same as previous, except Washout (deg) field ('0.0000') is highlighted/focused i
+some_frames/frame_050.jpg	viewed	'Wing_5' Sweep (deg) set to '30' and Root Chord ('1.0000') highlighted; swept ri
+some_frames/frame_051.jpg	viewed	'Wing_5' Root Chord being edited to '.128' (matching Vertical Stabilizer Root Ch
+some_frames/frame_052.jpg	viewed	'Wing_5' Root Chord set to '0.128' and Tip Chord being edited to '.064'.
+some_frames/frame_053.jpg	viewed	'Wing_5' Dihedral (deg) updated to '90' (rotating panel vertically into a vertic
+some_frames/frame_054.jpg	viewed	'Wing_5' Position x-coordinate set to '-0.6500', moving the vertical stabilizer 
+some_frames/frame_055.jpg	viewed	Wing_4 renamed to 'H-Stab' in OBJECT Name field and COMPONENT TREE; Position '-0
+some_frames/frame_056.jpg	viewed	Wing_5 renamed to 'V-Stab' in OBJECT Name field and COMPONENT TREE; cursor hover
+some_frames/frame_057.jpg	viewed	Wing_3 renamed to 'Main' in COMPONENT TREE; H-Stab selected and user drags the b
+some_frames/frame_058.jpg	viewed	3D viewport orbited to a side profile view showing H-Stab mounted atop V-Stab in
+some_frames/frame_059.jpg	viewed	3D viewport orbited to a top-angled view showing Main wing and T-tail assembly.
+some_frames/frame_060.jpg	viewed	Close-up view of tail with V-Stab selected; user interacts with the yellow X-axi
+some_frames/frame_061.jpg	viewed	Close-up view of T-tail orbited slightly with orbit cursor over H-Stab; nothing 
+some_frames/frame_062.jpg	viewed	H-Stab selected; OBJECT Position z-coordinate being edited ('-0.7000 0.0000 -.1'
+some_frames/frame_063.jpg	viewed	V-Stab selected; OBJECT Position updated to '-0.6054 0.0000 0.0000' (shifted for
+some_frames/frame_064.jpg	viewed	Close-up view of T-tail alignment in 3D viewport with nothing selected in COMPON
+some_frames/frame_065.jpg	viewed	Same close-up T-tail view in MachUp; in left spreadsheet, Vertical Stabilizer Le
+some_frames/frame_066.jpg	viewed	V-Stab selected; Position updated to '-0.6000 0.0000 0.0000', Root Chord being e
+some_frames/frame_067.jpg	viewed	V-Stab Root Chord updated to '0.138' and Tip Chord field cleared for editing.
+some_frames/frame_068.jpg	viewed	3D viewport orbited/zoomed out showing updated T-tail and Main wing with red CG 
+some_frames/frame_069.jpg	viewed	V-Stab selected and Root Airfoil section expanded (Airfoil 'NACA 2412', Zero-Lif
+some_frames/frame_070.jpg	viewed	V-Stab Root Airfoil Zero-Lift Alpha set to '0', Lift Slope set to '6.25', and Ze
+some_frames/frame_071.jpg	viewed	V-Stab Root Airfoil Zero-Lift Cm set to '0' and Moment Slope set to '0' (active 
+some_frames/frame_072.jpg	viewed	V-Stab Root Airfoil Parasitic CD being edited to '.047'.
+some_frames/frame_073.jpg	viewed	V-Stab Root Airfoil Parasitic CD set to '0.047' and Max Lift Coefficient updated
+some_frames/frame_074.jpg	viewed	Right panel scrolled down showing V-Stab Root Airfoil, collapsed Tip Airfoil (cu
+some_frames/frame_075.jpg	viewed	Scrolled up slightly; V-Stab Root Airfoil 'Airfoil (graphics only)' field being 
+some_frames/frame_076.jpg	viewed	V-Stab Root Airfoil name set to 'NACA 0006'; Tip Airfoil section expanded below 
+some_frames/frame_077.jpg	viewed	V-Stab Tip Airfoil name set to 'NACA 0006' and Zero-Lift Alpha (rad) set to '0' 
+some_frames/frame_078.jpg	viewed	V-Stab Tip Airfoil Lift Slope set to '6.25' and Moment Slope ('-0.0800') highlig
+some_frames/frame_079.jpg	viewed	V-Stab Tip Airfoil Zero-Lift Cm and Moment Slope set to '0', Parasitic CD being 
+some_frames/frame_080.jpg	viewed	V-Stab Tip Airfoil completed (NACA 0006, Zero-Lift Alpha '0', Lift Slope '6.25',
+some_frames/frame_081.jpg	viewed	3D viewport zoomed out/orbited showing full aircraft; nothing selected in COMPON
+some_frames/frame_082.jpg	viewed	Main wing selected; right panel shows GEOMETRY and expanded Root Airfoil ('NACA 
+some_frames/frame_083.jpg	viewed	Main Root Airfoil name changed to 'NACA 4412'; Zero-Lift Alpha (rad) ('-0.0369')
+some_frames/frame_084.jpg	viewed	Main Root Airfoil Zero-Lift Alpha (rad) being typed as '-.062849'.
+some_frames/frame_085.jpg	viewed	Main Root Airfoil Zero-Lift Alpha is '-0.062849', Lift Slope updated to '6.2793'
+some_frames/frame_086.jpg	viewed	Main Root Airfoil Zero-Lift Cm updated to '-0.0828' and Moment Slope cleared for
+some_frames/frame_087.jpg	viewed	Main Root Airfoil Moment Slope updated to '0.0824' and Parasitic CD ('0.0100') h
+some_frames/frame_088.jpg	viewed	Main Root Airfoil Parasitic CD being edited to '.00652'.
+some_frames/frame_089.jpg	viewed	Main Tip Airfoil expanded ('NACA 2412'); Tip Zero-Lift Alpha ('-0.0369') highlig
+some_frames/frame_090.jpg	viewed	Main Tip Airfoil Zero-Lift Alpha updated to '-0.062849' and Lift Slope to '6.279
+some_frames/frame_091.jpg	viewed	Main Tip Airfoil Zero-Lift Cm being updated ('0.0824' currently in field); curso
+some_frames/frame_092.jpg	viewed	Main Tip Airfoil updated (Zero-Lift Alpha '-0.062849', Lift Slope '6.2793', Zero
+some_frames/frame_093.jpg	viewed	Main wing selected; right panel scrolled to top showing OBJECT and GEOMETRY valu
+some_frames/frame_094.jpg	viewed	Main wing now rendered dark blue in 3D viewport; V-Stab selected (Side 'Right', 
+some_frames/frame_095.jpg	viewed	macOS Colors crayon picker open ('Blueberry' selected) coloring V-Stab dark blue
+some_frames/frame_096.jpg	viewed	H-Stab selected and colored dark blue; Control Surface section expanded with 'Ha
+some_frames/frame_097.jpg	viewed	H-Stab 'Has control surface' checked revealing Root/Span '0', Tip/Span '1', C_f 
+some_frames/frame_098.jpg	viewed	H-Stab Control Surface C_f (root) updated to '0.25'; cursor hovers over Control 
+some_frames/frame_099.jpg	viewed	H-Stab Control Surface parameters show Root/Span '0.2000', Tip/Span '0.8000', C_
+some_frames/frame_100.jpg	viewed	H-Stab Control Surface parameters show Root/Span '0', Tip/Span '1', C_f (root) '
+some_frames/frame_101.jpg	viewed	V-Stab selected with 'Has control surface' checked; Control Surface shows Root/S
+some_frames/frame_102.jpg	viewed	V-Stab Control Surface C_f (root) and C_f (tip) both set to '0.25', Elevator Mix
+some_frames/frame_103.jpg	viewed	V-Stab Control Surface scrolled down showing Elevator Mix '0', Rudder Mix '1', A
+some_frames/frame_104.jpg	viewed	V-Stab selected; right panel scrolled up showing COMPONENT TREE, OBJECT (Positio
+some_frames/frame_105.jpg	viewed	Browser window active showing HobbyKing Turnigy 5000mAh 3S 25C Lipo Pack specs a
+some_frames/frame_106.jpg	viewed	Split-screen with HobbyKing specs on left and MachUp on right; MachUp 'Add' menu
+some_frames/frame_107.jpg	viewed	'Box 6' added under MyAirplane in COMPONENT TREE and rendered as a large default
+some_frames/frame_108.jpg	viewed	'Box 6' Width set to '0.146' (matching 146 mm battery length) and Height being e
+some_frames/frame_109.jpg	viewed	'Box 6' Width '0.146', Height '0.025', Depth '0.05' (matching battery dimensions
+some_frames/frame_110.jpg	viewed	'Box 6' renamed to 'Battery' in OBJECT Name field and COMPONENT TREE.
+some_frames/frame_111.jpg	viewed	'Box 7' added to COMPONENT TREE and rendered as a large default 1x1x1 gray box a
+some_frames/frame_112.jpg	viewed	Google Docs 'Mission Profile' window active on left (showing Search and Rescue U
+some_frames/frame_113.jpg	viewed	Split-screen with Mission Profile doc on left and MachUp on right; Box 7 GEOMETR
+some_frames/frame_114.jpg	viewed	macOS Colors crayon picker open ('Maraschino' red selected) coloring Box 7 red i
+some_frames/frame_115.jpg	viewed	'Battery' selected (Width '0.1460', Height '0.0250', Depth '0.0500') with Colors
+some_frames/frame_116.jpg	viewed	'Battery' Position moved to '0.0607 0.0000 0.0490' (forward/below red payload bo
+some_frames/frame_117.jpg	viewed	Colors picker closed; Battery remains selected at '0.0607 0.0000 0.0490' while c
+some_frames/frame_118.jpg	viewed	Box 7 renamed to 'Payload' in COMPONENT TREE and OBJECT Name field (Position '0.
+some_frames/frame_119.jpg	viewed	'View' menu open in MachUp showing 'Light theme' and 'Dark theme'; nothing selec
+some_frames/frame_120.jpg	viewed	'Sphere 8' added under MyAirplane in COMPONENT TREE, rendered as a huge default 
+some_frames/frame_121.jpg	viewed	'Sphere 8' Radius set to '0.05' and OBJECT Scale (unchecked) set to '6.0000 1.00
+some_frames/frame_122.jpg	viewed	'Sphere 8' Position updated to '0.0000 0.0000 0.0340' (shifted down to enclose b
+some_frames/frame_123.jpg	viewed	'Cylinder 9' added under MyAirplane in COMPONENT TREE (yellow wireframe extendin
+some_frames/frame_124.jpg	viewed	'Cylinder 9' renamed to 'Boom' in OBJECT Name field and COMPONENT TREE; cursor c
+some_frames/frame_125.jpg	viewed	'Sphere 8' selected and OBJECT Name field being renamed ('Fu' typed so far).
+some_frames/frame_126.jpg	viewed	'Sphere 8' renamed to 'Fuselage' in COMPONENT TREE; 'Boom' selected with 'Connec
+some_frames/frame_127.jpg	viewed	Split screen (Google Docs 'Mission P...' on left, MachUp on right). 'Boom' selec
+some_frames/frame_128.jpg	viewed	Zoomed out 3D view showing aircraft with boom along fuselage/wing. Boom Rotation
+some_frames/frame_129.jpg	viewed	No component selected; right panel shows COMPONENT TREE (H-Stab, V-Stab, Battery
+some_frames/frame_130.jpg	viewed	Boom selected (Position: -0.4527 0.0000 0.0000, Rotation: 0.0000 0.0000 90.0000)
+some_frames/frame_131.jpg	viewed	Fuselage selected (Position: 0.0000 0.0000 0.0340, Scale: 6.0000 1.0000 1.0000) 
+some_frames/frame_132.jpg	viewed	Main wing selected (Position: 0.0000 0.0000 -0.0129) with yellow bounding box an
+some_frames/frame_133.jpg	viewed	Fuselage selected (Position Z: 0.0159); right panel scrolled to MATERIAL (Color:
+some_frames/frame_134.jpg	viewed	Boom selected (Radius top/bottom: 0.0150); Colors picker shows 'Tangerine' selec
+some_frames/frame_135.jpg	viewed	Colors picker closed, nothing selected. Side view of aircraft in 3D viewport sho
+some_frames/frame_136.jpg	viewed	Payload selected (Position: -0.0329 0.0000 0.0298) with yellow bounding box in s
+some_frames/frame_137.jpg	viewed	Battery selected (Position: 0.1329 0.0000 0.0209) with yellow bounding box in si
+some_frames/frame_138.jpg	viewed	Fuselage selected with Visible checkbox unchecked by cursor, hiding the fuselage
+some_frames/frame_139.jpg	viewed	Zoomed-in side view with Fuselage hidden (Visible unchecked) and Position Z adju
+some_frames/frame_140.jpg	viewed	Same as previous, with cursor positioned over the red X-axis gizmo arrow near th
+some_frames/frame_141.jpg	viewed	Battery selected (Position: 0.1082 0.0000 0.0218) with yellow bounding box; curs
+some_frames/frame_142.jpg	viewed	Fuselage visible again (orange). Top 'Add' menu open showing Group, Wing, Propel
+some_frames/frame_143.jpg	viewed	Propeller added as 'Prop_10' at bottom of Component Tree and selected (Position:
+some_frames/frame_144.jpg	viewed	Same as previous, except Prop_10 Name input box in OBJECT panel is cleared/blank
+some_frames/frame_145.jpg	viewed	Propeller renamed to 'Main Prop'. GEOMETRY Diameter field being edited ('.1'); T
+some_frames/frame_146.jpg	viewed	Main Prop Diameter updated to 0.1 and Pitch to 0.2 (propeller visibly scaled dow
+some_frames/frame_147.jpg	viewed	3D viewport rotated to front-left angle. Main Prop Position updated to 0.2906 0.
+some_frames/frame_148.jpg	viewed	Right panel scrolled down on Main Prop GEOMETRY (Diameter: 0.1000, Pitch: 0.2000
+some_frames/frame_149.jpg	viewed	Zoomed in on orange fuselage nose (cursor with green circle highlight in viewpor
+some_frames/frame_150.jpg	viewed	Zoomed out slightly on nose and propeller; OBJECT panel visible showing Main Pro
+some_frames/frame_151.jpg	viewed	Main Prop centered at nose tip (Position: 0.2924 0.0000 0.0128); cursor near yel
+some_frames/frame_152.jpg	viewed	Main Prop Diameter increased to 0.2 (blades visibly wider on nose); cursor with 
+some_frames/frame_153.jpg	viewed	Main Prop Root Chord set to 0.01; Tip Chord field selected/being edited (0.008 /
+some_frames/frame_154.jpg	viewed	macOS Colors crayon picker open over viewport with 'Licorice' (black) selected; 
+some_frames/frame_155.jpg	viewed	Colors picker closed, nothing selected. Isometric view of complete aircraft with
+some_frames/frame_156.jpg	viewed	Google Docs window closed; MachUp window now fills the entire screen. Full 3D vi
+some_frames/frame_157.jpg	viewed	Same full-screen MachUp view as previous; cursor moved onto the right wing (Main
+some_frames/frame_158.jpg	viewed	Same as previous (cursor hovering over right wing).
+some_frames/frame_159.jpg	viewed	Same as previous, cursor changed to pointer arrow over right wing before click.
+some_frames/frame_160.jpg	viewed	Main wing clicked and selected; yellow bounding box and gizmo appear on wing. Ri
+some_frames/frame_161.jpg	viewed	Same as previous, cursor moved into GEOMETRY panel near Mount Angle / Washout.
+some_frames/frame_162.jpg	viewed	Right panel scrolled down slightly on Main wing to show collapsed Root Airfoil a
+some_frames/frame_163.jpg	viewed	Same as previous.
+some_frames/frame_164.jpg	viewed	Same as previous, cursor hovering directly over Washout (deg) value 0.0000 with 
+some_frames/frame_165.jpg	viewed	Washout (deg) input field clicked and '0.0000' highlighted in blue for editing.
+some_frames/frame_166.jpg	viewed	'2' typed into Washout (deg) input field.
+some_frames/frame_167.jpg	viewed	Same as previous (Washout (deg) shows '2' in active input field).
+some_frames/frame_168.jpg	viewed	Sweep (deg) input field clicked and '0.0000' highlighted in blue; Washout (deg) 
+some_frames/frame_169.jpg	viewed	Dihedral (deg) input field clicked and '0.0000' highlighted in blue; Sweep (deg)
+some_frames/frame_170.jpg	viewed	Same as previous.
+some_frames/frame_171.jpg	viewed	Same as previous.
+some_frames/frame_172.jpg	viewed	'4' typed into Dihedral (deg) input field.
+some_frames/frame_173.jpg	viewed	Root Chord field clicked and '0.1810' highlighted in blue; Dihedral (deg) commit
+some_frames/frame_174.jpg	viewed	Same as previous.
+some_frames/frame_175.jpg	viewed	Same as previous, cursor moved down into empty viewport area below aircraft.
+some_frames/frame_176.jpg	viewed	Same as previous.
+some_frames/frame_177.jpg	viewed	Same as previous.
+some_frames/frame_178.jpg	viewed	Same as previous.
+some_frames/frame_179.jpg	viewed	Same as previous.
+some_frames/frame_180.jpg	viewed	Same as previous, with circle click highlight around cursor in lower-right viewp
+some_frames/frame_181.jpg	viewed	Same as previous, circle highlight fading.
+some_frames/frame_182.jpg	viewed	Same Main wing selection; cursor moved up near V-Stab/H-Stab tail area.
+some_frames/frame_183.jpg	viewed	Same as previous, cursor hovering just above H-Stab.
+some_frames/frame_184.jpg	viewed	Same as previous, cursor moved down-left behind tail.
+some_frames/frame_185.jpg	viewed	Same as previous, cursor moved back over H-Stab/V-Stab junction.
+some_frames/frame_186.jpg	viewed	Same as previous, cursor near left tip of H-Stab.
+some_frames/frame_187.jpg	viewed	Same Main wing selection; cursor moved back to lower-right viewport with circle 
+some_frames/frame_188.jpg	viewed	Same as previous, circle highlight gone.
+some_frames/frame_189.jpg	viewed	Same as previous.
+some_frames/frame_190.jpg	viewed	Same as previous.
+some_frames/frame_191.jpg	viewed	Same as previous.
+some_frames/frame_192.jpg	viewed	Same as previous.
+some_frames/frame_193.jpg	viewed	Same as previous.
+some_frames/frame_194.jpg	viewed	Same as previous.
+some_frames/frame_195.jpg	viewed	Same as previous.
+some_frames/frame_196.jpg	viewed	Same Main wing selection; cursor moved onto right wingtip.
+some_frames/frame_197.jpg	viewed	Same as previous, cursor moved back to lower-right viewport.
+some_frames/frame_198.jpg	viewed	Same as previous.
+some_frames/frame_199.jpg	viewed	Same as previous, cursor moved over Dihedral (deg) value '4' with scrub cursor.
+some_frames/frame_200.jpg	viewed	Same as previous.
+some_frames/frame_201.jpg	viewed	Same as previous, cursor moved slightly down to Root Chord boundary.
+some_frames/frame_202.jpg	viewed	Right panel scrolled slightly down on Main wing showing Spanwise Segments: 40 an
+some_frames/frame_203.jpg	viewed	Right panel scrolled slightly back up showing COMPONENT TREE at top and Control 
+some_frames/frame_204.jpg	viewed	Right panel scrolled down further on Main wing to show Spanwise Segments: 40, Co
+some_frames/frame_205.jpg	viewed	Right panel scrolled down further showing MATERIAL (Color: blue, Emissive: black
+some_frames/frame_206.jpg	viewed	Right panel scrolled to bottom showing MATERIAL (Wireframe: unchecked 1.0000) an
+some_frames/frame_207.jpg	viewed	Same as previous.
+some_frames/frame_208.jpg	viewed	Main wing deselected; bounding box and gizmo disappear from 3D viewport, right p
+some_frames/frame_209.jpg	viewed	Same as previous, cursor moved up to hover over ANALYSIS header.
+some_frames/frame_210.jpg	viewed	Same as previous, cursor hovering just left of ANALYSIS disclosure triangle.
+some_frames/frame_211.jpg	viewed	Same as previous.
+some_frames/frame_212.jpg	viewed	Circle click highlight on cursor clicking the ANALYSIS disclosure triangle.
+some_frames/frame_213.jpg	viewed	ANALYSIS panel expanded showing Condition inputs (Alpha, Beta, Elevator, Rudder,
+some_frames/frame_214.jpg	viewed	ANALYSIS panel scrolled down slightly to show CL = 0.0000, CD = 0.0095, CY = 0.0
+some_frames/frame_215.jpg	viewed	ANALYSIS panel scrolled down further showing all 6 aerodynamic coefficients (CL,
+some_frames/frame_216.jpg	viewed	Run dropdown menu opened showing options: Forces and Moments (checked), Performa
+some_frames/frame_217.jpg	viewed	Same Run dropdown open, cursor moved down to highlight 'Pitch Trim'.
+some_frames/frame_218.jpg	viewed	'Pitch Trim' selected in Run dropdown; panel displays Target CL: 0, Target Cm: 0
+some_frames/frame_219.jpg	viewed	Same as previous.
+some_frames/frame_220.jpg	viewed	Same as previous, cursor moved slightly below Run dropdown.
+some_frames/frame_221.jpg	viewed	Target CL input field clicked/active ('0' with scrub cursor over it).
+some_frames/frame_222.jpg	viewed	Same as previous.
+some_frames/frame_223.jpg	viewed	Target CL field still active/ready for input, cursor moved away.
+some_frames/frame_224.jpg	viewed	Same as previous.
+some_frames/frame_225.jpg	viewed	Switched window to Google Sheets sizing spreadsheet 'General Sizing Blank Short 
+some_frames/frame_226.jpg	viewed	Same Google Sheets spreadsheet as previous, with cursor clicking cell K5 (Lift C
+some_frames/frame_227.jpg	viewed	Google Sheets sizing spreadsheet ('General Sizing Blank Short Course', Metric ta
+some_frames/frame_228.jpg	viewed	Same as previous (Google Sheets sizing spreadsheet with cursor on Lift Coefficie
+some_frames/frame_229.jpg	viewed	MachUp UI with conventional T-tail aircraft in 3D viewport; right panel shows AN
+some_frames/frame_230.jpg	viewed	Same as previous, with I-beam cursor positioned inside the Target CL input box o
+some_frames/frame_231.jpg	viewed	Target CL input field is focused and cleared (empty) with text cursor active.
+some_frames/frame_232.jpg	viewed	Same as previous (Target CL input box remains focused and empty).
+some_frames/frame_233.jpg	viewed	'.46' typed into the active Target CL input field.
+some_frames/frame_234.jpg	viewed	Target CL input defocused and formatted as 0.46; cursor moves over the 'Update R
+some_frames/frame_235.jpg	viewed	Same as previous, with cursor centered on the 'Update Results' button.
+some_frames/frame_236.jpg	viewed	'Just a sec...' loading modal overlay displayed over dimmed UI while running Pit
+some_frames/frame_237.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_238.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_239.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_240.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_241.jpg	viewed	'Just a sec...' modal begins fading out; Condition and results update to Alpha (
+some_frames/frame_242.jpg	viewed	Loading modal gone; Pitch Trim results displayed (alpha = 3.45 deg, elevator = -
+some_frames/frame_243.jpg	viewed	Same as previous, cursor slightly shifted on 3.45.
+some_frames/frame_244.jpg	viewed	Same as previous.
+some_frames/frame_245.jpg	viewed	Same as previous.
+some_frames/frame_246.jpg	viewed	Same as previous.
+some_frames/frame_247.jpg	viewed	Same as previous, cursor moves slightly upward toward Flap/Run controls.
+some_frames/frame_248.jpg	viewed	Same as previous, cursor near Flap (deg) / Run dropdown area.
+some_frames/frame_249.jpg	viewed	Same as previous.
+some_frames/frame_250.jpg	viewed	Same as previous.
+some_frames/frame_251.jpg	viewed	Same as previous.
+some_frames/frame_252.jpg	viewed	Same as previous.
+some_frames/frame_253.jpg	viewed	Same as previous.
+some_frames/frame_254.jpg	viewed	Same as previous.
+some_frames/frame_255.jpg	viewed	Same as previous.
+some_frames/frame_256.jpg	viewed	Same as previous, with I-beam cursor hovering between Target CL and Target Cm.
+some_frames/frame_257.jpg	viewed	Right panel scrolled up to show COMPONENT TREE (Main, H-Stab, V-Stab, Battery, P
+some_frames/frame_258.jpg	viewed	Same as previous, cursor moves over the 'ANALYSIS' section header.
+some_frames/frame_259.jpg	viewed	Cursor moves into the 3D viewport over the left main wing tip.
+some_frames/frame_260.jpg	viewed	Main Wing selected in 3D viewport (yellow bounding box and RGB 3D transform axes
+some_frames/frame_261.jpg	viewed	Same as previous, cursor shifts slightly near the wing tip.
+some_frames/frame_262.jpg	viewed	Same as previous, cursor moves right into empty viewport space.
+some_frames/frame_263.jpg	viewed	Same as previous, cursor moves onto right panel near Semispan (0.7350).
+some_frames/frame_264.jpg	viewed	Same as previous, cursor hovers over Mount Angle (deg) value 0.0000.
+some_frames/frame_265.jpg	viewed	Same as previous, I-beam cursor over 0.0000 in Mount Angle (deg).
+some_frames/frame_266.jpg	viewed	Same as previous.
+some_frames/frame_267.jpg	viewed	Mount Angle (deg) input box becomes active/focused containing 0.0000.
+some_frames/frame_268.jpg	viewed	Same as previous.
+some_frames/frame_269.jpg	viewed	Same as previous.
+some_frames/frame_270.jpg	viewed	'3.' typed into the active Mount Angle (deg) input field.
+some_frames/frame_271.jpg	viewed	'3.5' typed into the active Mount Angle (deg) input field.
+some_frames/frame_272.jpg	viewed	Same as previous (3.5 in active Mount Angle input field).
+some_frames/frame_273.jpg	viewed	Same as previous.
+some_frames/frame_274.jpg	viewed	Same as previous.
+some_frames/frame_275.jpg	viewed	Mount Angle (deg) confirmed as 3.5 (input defocused); panel scrolled slightly sh
+some_frames/frame_276.jpg	viewed	Right panel scrolled down to ANALYSIS -> Condition and Run: Pitch Trim, with Wir
+some_frames/frame_277.jpg	viewed	Cursor clicks 'Update Results'; 'Just a sec...' loading modal begins fading in w
+some_frames/frame_278.jpg	viewed	'Just a sec...' loading modal overlay shown over dimmed UI while recalculating P
+some_frames/frame_279.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_280.jpg	viewed	Calculation finishes and modal disappears; V-Stab shows yellow selection outline
+some_frames/frame_281.jpg	viewed	Same as previous, cursor near bottom-right corner.
+some_frames/frame_282.jpg	viewed	Same as previous.
+some_frames/frame_283.jpg	viewed	Same as previous.
+some_frames/frame_284.jpg	viewed	Same as previous.
+some_frames/frame_285.jpg	viewed	Same as previous.
+some_frames/frame_286.jpg	viewed	Same as previous, cursor moves onto alpha result (-0.08).
+some_frames/frame_287.jpg	viewed	Same as previous.
+some_frames/frame_288.jpg	viewed	Same as previous, cursor moves onto elevator result (-0.04).
+some_frames/frame_289.jpg	viewed	Same as previous.
+some_frames/frame_290.jpg	viewed	Same as previous.
+some_frames/frame_291.jpg	viewed	Same as previous.
+some_frames/frame_292.jpg	viewed	Same as previous.
+some_frames/frame_293.jpg	viewed	Same as previous.
+some_frames/frame_294.jpg	viewed	Same as previous.
+some_frames/frame_295.jpg	viewed	Same as previous.
+some_frames/frame_296.jpg	viewed	Same as previous.
+some_frames/frame_297.jpg	viewed	Same as previous.
+some_frames/frame_298.jpg	viewed	Same as previous.
+some_frames/frame_299.jpg	viewed	Same as previous.
+some_frames/frame_300.jpg	viewed	Same as previous.
+some_frames/frame_301.jpg	viewed	Same as previous.
+some_frames/frame_302.jpg	viewed	Same as previous.
+some_frames/frame_303.jpg	viewed	Same as previous.
+some_frames/frame_304.jpg	viewed	Same as previous.
+some_frames/frame_305.jpg	viewed	Same as previous.
+some_frames/frame_306.jpg	viewed	Same as previous.
+some_frames/frame_307.jpg	viewed	Same as previous.
+some_frames/frame_308.jpg	viewed	Same as previous, cursor shifted slightly left onto alpha (deg) = -0.08.
+some_frames/frame_309.jpg	viewed	Same as previous, cursor moves into 3D viewport area.
+some_frames/frame_310.jpg	viewed	Right panel scrolled slightly up (Fuselage visible at top); V-Stab yellow outlin
+some_frames/frame_311.jpg	viewed	Same as previous, with click-ripple circle indicator around cursor in 3D viewpor
+some_frames/frame_312.jpg	viewed	Same as previous, ripple circle persists around cursor in 3D viewport.
+some_frames/frame_313.jpg	viewed	Cursor moves over the 'Save Results' button on the right panel.
+some_frames/frame_314.jpg	viewed	Run analysis dropdown menu opened, listing Forces and Moments, Performance Deriv
+some_frames/frame_315.jpg	viewed	Same as previous (Run dropdown open with Pitch Trim highlighted).
+some_frames/frame_316.jpg	viewed	Same as previous, cursor moves toward top of Run dropdown menu.
+some_frames/frame_317.jpg	viewed	Run dropdown open; cursor hovers over and highlights 'Performance Derivatives'.
+some_frames/frame_318.jpg	viewed	Same as previous ('Performance Derivatives' highlighted in Run dropdown).
+some_frames/frame_319.jpg	viewed	Run dropdown open; cursor moves down and highlights 'Aerodynamic Center'.
+some_frames/frame_320.jpg	viewed	Same as previous ('Aerodynamic Center' highlighted in Run dropdown).
+some_frames/frame_321.jpg	viewed	'Aerodynamic Center' selected in Run dropdown and menu closes; component tree sh
+some_frames/frame_322.jpg	viewed	Cursor clicks 'Update Results'; 'Just a sec...' loading modal appears with busy 
+some_frames/frame_323.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_324.jpg	viewed	Same as previous ('Just a sec...' loading modal overlay).
+some_frames/frame_325.jpg	viewed	Calculation completes and loading modal fades out; a purple marker dot indicatin
+some_frames/frame_326.jpg	viewed	Loading modal completely gone; purple aerodynamic center marker clearly visible 
+some_frames/frame_327.jpg	viewed	3D viewport shows orange/blue glider with T-tail, nose prop, and purple Aerodyna
+some_frames/frame_328.jpg	viewed	Same as previous; cursor moves onto the purple Aerodynamic Center sphere on the 
+some_frames/frame_329.jpg	viewed	Same as previous; cursor moves to the ANALYSIS -> Condition area over Beta/Eleva
+some_frames/frame_330.jpg	viewed	COMPONENT TREE scrolled to show Main, H-Stab, V-Stab, Battery, Payload, Fuselage
+some_frames/frame_331.jpg	viewed	Same as previous; cursor moves up over H-Stab in COMPONENT TREE.
+some_frames/frame_332.jpg	viewed	COMPONENT TREE scrolled to top showing MyAirplane, Center of Gravity, Aerodynami
+some_frames/frame_333.jpg	viewed	Center of Gravity selected in COMPONENT TREE; 3D viewport shows XYZ transform gi
+some_frames/frame_334.jpg	viewed	Same as previous; cursor moves over GEOMETRY section below Radius 0.0300.
+some_frames/frame_335.jpg	viewed	Same as previous; Radius input field (0.0300) is clicked and highlighted for edi
+some_frames/frame_336.jpg	viewed	Editing Radius field in GEOMETRY; currently reads '.0' as user types a new radiu
+some_frames/frame_337.jpg	viewed	Radius updated to 0.04; red Center of Gravity sphere in 3D viewport visibly enla
+some_frames/frame_338.jpg	viewed	Right panel returns to ANALYSIS (Run = Aerodynamic Center); enlarged red CG sphe
+some_frames/frame_339.jpg	viewed	3D viewport zoomed in closely on fuselage center and tail section showing purple
+some_frames/frame_340.jpg	viewed	Same as previous; cursor moves onto the red CG sphere.
+some_frames/frame_341.jpg	viewed	Same as previous; cursor slightly shifted on the red CG sphere.
+some_frames/frame_342.jpg	viewed	Same as previous; cursor near upper edge of red CG sphere.
+some_frames/frame_343.jpg	viewed	Same as previous; cursor near right side of red CG sphere.
+some_frames/frame_344.jpg	viewed	Same as previous; cursor moves onto the Run dropdown (currently Aerodynamic Cent
+some_frames/frame_345.jpg	viewed	Run dropdown menu opened showing Forces and Moments, Performance Derivatives, Ae
+some_frames/frame_346.jpg	viewed	Same dropdown open; cursor moves up to hover over Performance Derivatives.
+some_frames/frame_347.jpg	viewed	Performance Derivatives selected in Run dropdown; cursor with click highlight cl
+some_frames/frame_348.jpg	viewed	'Just a sec...' loading modal overlay displayed while Performance Derivatives ca
+some_frames/frame_349.jpg	viewed	Same as previous ('Just a sec...' loading overlay).
+some_frames/frame_350.jpg	viewed	Same as previous ('Just a sec...' loading overlay beginning to fade).
+some_frames/frame_351.jpg	viewed	Loading overlay dismissed; Performance Derivatives results shown: CL,alpha = 4.5
+some_frames/frame_352.jpg	viewed	Same as previous; cursor moves to bottom right below Static Margin value 0.2769.
+some_frames/frame_353.jpg	viewed	Same as previous; cursor over Static Margin value 0.2769.
+some_frames/frame_354.jpg	viewed	Same as previous; cursor slightly shifted on 0.2769.
+some_frames/frame_355.jpg	viewed	Same as previous.
+some_frames/frame_356.jpg	viewed	Same as previous.
+some_frames/frame_357.jpg	viewed	Same as previous; cursor slightly left of 0.2769.
+some_frames/frame_358.jpg	viewed	Same as previous; cursor over 0.2769.
+some_frames/frame_359.jpg	viewed	Same as previous.
+some_frames/frame_360.jpg	viewed	Same as previous.
+some_frames/frame_361.jpg	viewed	Same as previous; cursor moves up onto CY,beta = -0.1809.
+some_frames/frame_362.jpg	viewed	Same as previous; cursor moves up between Update Results and Save Results button
+some_frames/frame_363.jpg	viewed	Run dropdown menu opened with click highlight on Performance Derivatives (checke
+some_frames/frame_364.jpg	viewed	Run dropdown open; cursor moves down to highlight Aerodynamic Center.
+some_frames/frame_365.jpg	viewed	Run dropdown open; cursor moves down to highlight Stall Onset.
+some_frames/frame_366.jpg	viewed	Run dropdown open; cursor moves down to highlight Pitch Trim.
+some_frames/frame_367.jpg	viewed	Run dropdown open; click highlight over Pitch Trim option.
+some_frames/frame_368.jpg	viewed	Pitch Trim selected in Run dropdown; Target CL (0.46) and Target Cm (0.0000) fie
+some_frames/frame_369.jpg	viewed	Same as previous; I-beam cursor moves onto Target CL value 0.46.
+some_frames/frame_370.jpg	viewed	Same as previous; Target CL input box (0.46) becomes active/focused.
+some_frames/frame_371.jpg	viewed	Same as previous; 0.46 highlighted inside Target CL input box.
+some_frames/frame_372.jpg	viewed	Target CL changed to 0 (Target Cm remains 0.0000); results still show -0.08 and 
+some_frames/frame_373.jpg	viewed	Same as previous; cursor moves onto Update Results button.
+some_frames/frame_374.jpg	viewed	'Just a sec...' loading modal overlay displayed after clicking Update Results fo
+some_frames/frame_375.jpg	viewed	Same as previous ('Just a sec...' loading overlay).
+some_frames/frame_376.jpg	viewed	Same as previous ('Just a sec...' loading overlay).
+some_frames/frame_377.jpg	viewed	Loading overlay dismissed; Pitch Trim finishes and updates Condition Alpha (deg)
+some_frames/frame_378.jpg	viewed	Same as previous.
+some_frames/frame_379.jpg	viewed	Same as previous; cursor moves to Target CL field (0).
+some_frames/frame_380.jpg	viewed	Same as previous; cursor moves slightly down toward Update Results.
+some_frames/frame_381.jpg	viewed	Same as previous; cursor slightly below Update Results.
+some_frames/frame_382.jpg	viewed	Same as previous; I-beam cursor returns to Target CL field (0).
+some_frames/frame_383.jpg	viewed	Same as previous; cursor on Target CL field (0).
+some_frames/frame_384.jpg	viewed	Same as previous; cursor on Target CL field (0).
+some_frames/frame_385.jpg	viewed	Same as previous; cursor moves down to elevator (deg) result 7.97.
+some_frames/frame_386.jpg	viewed	Same as previous; cursor near bottom right by 7.97.
+some_frames/frame_387.jpg	viewed	Same as previous; cursor slightly shifted at bottom right.
+some_frames/frame_388.jpg	viewed	Same as previous; cursor moves up to Elevator (deg) 7.9727 in Condition section.
+some_frames/frame_389.jpg	viewed	Same as previous; cursor moves down over Flap (deg) 0.0000.
+some_frames/frame_390.jpg	viewed	Same as previous; I-beam cursor right of Target CL field.
+some_frames/frame_391.jpg	viewed	Same as previous; cursor over Run Pitch Trim dropdown.
+some_frames/frame_392.jpg	viewed	Run dropdown menu opened; Pitch Trim checked, Performance Derivatives highlighte
+some_frames/frame_393.jpg	viewed	Forces and Moments selected in Run dropdown; results display CL = 0.0000, CD = 0
+some_frames/frame_394.jpg	viewed	Same as previous; Update Results button clicked and highlighted blue.
+some_frames/frame_395.jpg	viewed	'Just a sec...' loading modal overlay displayed while Forces and Moments updates
+some_frames/frame_396.jpg	viewed	Same as previous ('Just a sec...' loading overlay).
+some_frames/frame_397.jpg	viewed	Loading overlay dismissed; Forces and Moments results displayed (CL = 0.0000, CD
+some_frames/frame_398.jpg	viewed	Same as previous; cursor over Cm = -0.0000.
+some_frames/frame_399.jpg	viewed	Same as previous; cursor moves up to CD = 0.0095.
+some_frames/frame_400.jpg	viewed	Same as previous; click highlight over CD = 0.0095.
+some_frames/frame_401.jpg	viewed	Same as previous; cursor remains on CD = 0.0095.
+some_frames/frame_402.jpg	viewed	Same as previous; cursor moves down slightly to CY = 0.0000.
+some_frames/frame_403.jpg	viewed	Same as previous; cursor moves into the 3D viewport grey background above the ai
+some_frames/frame_404.jpg	viewed	Same as previous; cursor no longer visible in viewport/panel.
+some_frames/frame_405.jpg	viewed	Switched to Google Sheets 'General Sizing Blank Short Course' (Metric sheet); ce
+some_frames/frame_406.jpg	viewed	Same as previous; cursor appears on cell D10.
+some_frames/frame_407.jpg	viewed	Same as previous; cursor moves slightly down over D10/D11.
+some_frames/frame_408.jpg	viewed	Same as previous; cursor moves left onto C11 (Oswald Efficiency 0.85).
+some_frames/frame_409.jpg	viewed	Same as previous; cursor moves onto C10 (Zero Lift Drag Coeff. 0.021).
+some_frames/frame_410.jpg	viewed	Same as previous; cursor slightly shifted on C10 (0.021).
+some_frames/frame_411.jpg	viewed	Same as previous; cursor moves left onto B10 ('Zero Lift Drag Coeff.').
+some_frames/frame_412.jpg	viewed	Same as previous; cursor on B10.
+some_frames/frame_413.jpg	viewed	Same as previous.
+some_frames/frame_414.jpg	viewed	Same as previous.
+some_frames/frame_415.jpg	viewed	Same as previous.
+some_frames/frame_416.jpg	viewed	Same as previous.
+some_frames/frame_417.jpg	viewed	Same as previous; cursor slightly shifted on B10 ('Zero Lift Drag Coeff.').
+some_frames/frame_418.jpg	viewed	Same as previous; cursor on B10.
+some_frames/frame_419.jpg	viewed	Same as previous; cursor moves back onto C10 (0.021).
+some_frames/frame_420.jpg	viewed	Same as previous; cell C10 (0.021) is selected in blue.
+some_frames/frame_421.jpg	viewed	Same as previous; text '0.021' in cell C10 is highlighted for editing.
+some_frames/frame_422.jpg	viewed	Same as previous; '0.021' in C10 remains highlighted.
+some_frames/frame_423.jpg	viewed	Editing cell C10; old value cleared, user begins typing '.' with cursor active.
+some_frames/frame_424.jpg	viewed	Typing '.0095' into cell C10 (Zero Lift Drag Coeff.), transferring the zero-lift
+some_frames/frame_425.jpg	viewed	Same as previous; '.0095' entered in cell C10 before confirming.
+some_frames/frame_426.jpg	viewed	Cell C10 confirmed (displays 0.010, selection moves to C11); 'Saving...' indicat
+some_frames/frame_427.jpg	viewed	Google Sheets 'General Sizing Blank Short Course' (Edit tab, Metric/English sele
+some_frames/frame_428.jpg	viewed	Same spreadsheet as previous; toolbar now says 'All changes saved in Drive' and 
+some_frames/frame_429.jpg	viewed	Same as previous; cursor slightly shifted over '76.7 km'.
+some_frames/frame_430.jpg	viewed	Same as previous; cursor positioned over '76' in '76.7 km'.
+some_frames/frame_431.jpg	viewed	Same as previous; cursor moved up to Results table near Lift to Drag Ratio '25.1
+some_frames/frame_432.jpg	viewed	Same as previous; cursor moved left onto Aircraft section near Oswald Efficiency
+some_frames/frame_433.jpg	viewed	Same as previous; cursor moved up onto Zero Lift Drag Coeff '0.010' (C10).
+some_frames/frame_434.jpg	viewed	Same as previous; cursor moved to empty area between Condition and Horizontal St
+some_frames/frame_435.jpg	viewed	Same as previous; cursor moved to 'Estimated Flight Time' label in Results table
+some_frames/frame_436.jpg	viewed	Same as previous; cursor moved slightly right near '79.9 min'.
+some_frames/frame_437.jpg	viewed	Same as previous; cursor moved to 'Estimated Flight Time' / '79.9 min' area.
+some_frames/frame_438.jpg	viewed	Same as previous; cursor moved down onto '76.7 km'.
+some_frames/frame_439.jpg	viewed	Same as previous; cursor slightly shifted right on '76.7 km'.
+some_frames/frame_440.jpg	viewed	Spreadsheet scrolled down slightly (rows 3-32 visible): Propulsion/Batteries now
+some_frames/frame_441.jpg	viewed	Same scrolled spreadsheet view as previous; cursor moved up near '79.9 min'.
+some_frames/frame_442.jpg	viewed	Same as previous; cursor moved down near '76.7 km' / Typical Wing Loading top ed
+some_frames/frame_443.jpg	viewed	Same as previous; cursor positioned on Typical Wing Loading header/border.
+some_frames/frame_444.jpg	viewed	Same as previous.
+some_frames/frame_445.jpg	viewed	Same as previous.
+some_frames/frame_446.jpg	viewed	Same as previous.
+some_frames/frame_447.jpg	viewed	Same as previous.
+some_frames/frame_448.jpg	viewed	Same as previous.
+some_frames/frame_449.jpg	viewed	Same as previous.
+some_frames/frame_450.jpg	viewed	Same as previous.
+some_frames/frame_451.jpg	viewed	Same as previous.
+some_frames/frame_452.jpg	viewed	Switched to MachUp UI. Top bar: MachUp, File, Edit, Add, View, Help, Tutorials; 
+some_frames/frame_453.jpg	viewed	Same MachUp UI state as previous; black click circle indicator appears on lower 
+some_frames/frame_454.jpg	viewed	Same as previous; click circle gone, cursor slightly shifted on forward fuselage
+some_frames/frame_455.jpg	viewed	Same as previous; cursor moved slightly lower on forward fuselage.
+some_frames/frame_456.jpg	viewed	Same as previous; cursor just below lower forward fuselage.
+some_frames/frame_457.jpg	viewed	Same as previous.
+some_frames/frame_458.jpg	viewed	Same as previous.
+some_frames/frame_459.jpg	viewed	Same as previous.
+some_frames/frame_460.jpg	viewed	Same as previous.
+some_frames/frame_461.jpg	viewed	Same as previous.
+some_frames/frame_462.jpg	viewed	Same MachUp UI state as previous; cursor moved to top menu bar near 'Tutorials'.
+some_frames/frame_463.jpg	viewed	Same MachUp UI state as previous; cursor returned below forward fuselage.
+some_frames/frame_464.jpg	viewed	Switched back to Google Sheets ('General Sizing Blank Short Course', scrolled vi
+some_frames/frame_465.jpg	viewed	Same spreadsheet view as previous; cursor moved down to Typical Wing Loading are
+some_frames/frame_466.jpg	viewed	Same as previous; cursor moved left onto Vertical Stabilizer section border.
+some_frames/frame_467.jpg	viewed	Same as previous; cursor moved up to formatting toolbar over Italic ('I') button
+some_frames/frame_468.jpg	viewed	Same as previous; cursor positioned over Vertical Stabilizer section top-left.
+some_frames/frame_469.jpg	viewed	Switched back to MachUp UI (same ANALYSIS -> Condition panel and aircraft state)
+some_frames/frame_470.jpg	viewed	Same MachUp UI state as previous; cursor moved below forward fuselage.
+some_frames/frame_471.jpg	viewed	Same as previous.
+some_frames/frame_472.jpg	viewed	Same as previous.
+some_frames/frame_473.jpg	viewed	Same as previous.
+some_frames/frame_474.jpg	viewed	Same as previous.
+some_frames/frame_475.jpg	viewed	Same as previous.
+some_frames/frame_476.jpg	viewed	Same as previous.
+some_frames/frame_477.jpg	viewed	Same as previous.
+some_frames/frame_478.jpg	viewed	Same as previous.
+some_frames/frame_479.jpg	viewed	Same as previous.
+some_frames/frame_480.jpg	viewed	Same as previous.
+some_frames/frame_481.jpg	viewed	Same as previous.
+some_frames/frame_482.jpg	viewed	Same as previous.
+some_frames/frame_483.jpg	viewed	Same as previous.
+some_frames/frame_484.jpg	viewed	Same as previous.
+some_frames/frame_485.jpg	viewed	Same MachUp UI state as previous; cursor moved slightly lower in viewport with b
+some_frames/frame_486.jpg	viewed	MachUp 3D viewport rotated to near-front head-on view of the aircraft showing no
+some_frames/frame_487.jpg	viewed	MachUp 3D viewport rotated back to front-right 3/4 view; black click circle belo
+some_frames/frame_488.jpg	viewed	Same MachUp UI state as previous; click circle gone, cursor remains below forwar
+some_frames/frame_489.jpg	viewed	Same as previous.
+some_frames/frame_490.jpg	viewed	Same as previous.
+some_frames/frame_491.jpg	viewed	Same as previous.
+some_frames/frame_492.jpg	viewed	Same as previous.
+some_frames/frame_493.jpg	viewed	Same as previous.
+some_frames/frame_494.jpg	viewed	Same as previous.
+some_frames/frame_495.jpg	viewed	Same as previous.
+some_frames/frame_496.jpg	viewed	Same as previous.
+some_frames/frame_497.jpg	viewed	Same as previous.
+some_frames/frame_498.jpg	viewed	Same MachUp UI state with faint 'BLUCRAFT' watermark beginning to fade in across
+some_frames/frame_499.jpg	viewed	Video outro transition: 'BLUCRAFT / Premier Aerodynamic Tools and Consulting / b
+some_frames/frame_500.jpg	viewed	Full video outro card showing 'BLUCRAFT', 'Premier Aerodynamic Tools and Consult
