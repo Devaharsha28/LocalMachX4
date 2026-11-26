@@ -41,6 +41,22 @@ pip install ./vendor/MachUpX
 MPLCONFIGDIR=/tmp/mpl .venv/bin/python -m pytest tests/test_backend.py -v
 ```
 
+## Credits & Licenses
+
+LocalMachX4 is built on the following open-source projects. All are used under their respective licenses; license texts are included in `vendor/` and `static/vendor/`.
+
+| Project | Authors / Maintainers | License | Used for |
+|---|---|---|---|
+| [MachUpX](https://github.com/usuaero/MachUpX) v2.7.2 | USU AeroLab (`usuaero`, Doug Hunsaker) | MIT | Core lifting-line solver (forces, trim, derivatives, distributions, STL export) |
+| [AirfoilDatabase](https://github.com/usuaero/AirfoilDatabase) (`airfoil_db`) v1.4.3 | USU AeroLab | MIT | Airfoil polar data for the solver |
+| [MachUp_Py](https://github.com/usuaero/MachUp_Py) | USU AeroLab | MIT | Legacy MachUp Python sources (vendored for reference) |
+| [Three.js](https://threejs.org) r163 | Three.js Authors | MIT | 3D viewport renderer |
+| Three.js `OrbitControls` / `TransformControls` | Three.js Authors | MIT | Camera orbit & transform gizmos |
+| [FastAPI](https://fastapi.tiangolo.com) / [Uvicorn](https://www.uvicorn.org) | Sebastián Ramírez et al. | MIT / BSD-3 | Local backend server & API |
+| NumPy, SciPy, Matplotlib, python-numpy-stl | Respective authors | BSD / MIT | Numerical computing & plotting |
+
+MachUpX implements the Goates-Hunsaker generalized numerical lifting-line method. LocalMachX4 is an independent UI/frontend project and is not affiliated with or endorsed by USU AeroLab or the MachUp team.
+
 ## Documentation
 - [docs/axes.md](file:///home/user117/Documents/machup4/docs/axes.md) — Verified MachUpX body/earth coordinate conventions and Three.js mapping
 - [docs/ui-spec.md](file:///home/user117/Documents/machup4/docs/ui-spec.md) — UI specification derived from the 150 reference frames
