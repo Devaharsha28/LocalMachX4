@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_DIR = BASE_DIR / "static"
 EXAMPLES_DIR = BASE_DIR / "vendor" / "MachUpX" / "examples"
 
-app = FastAPI(title="MachUpX Local GUI", version="0.1.0")
+app = FastAPI(title="LocalMachX4", version="0.1.0")
 
 if STATIC_DIR.exists():
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")

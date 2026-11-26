@@ -1238,8 +1238,8 @@ async function handleCommand(cmd) {
     );
   } else if (cmd === "about") {
     openModal(
-      "About MachUpX Local GUI",
-      `<p>Local browser-based aircraft designer powered by the open-source <b>MachUpX v2.7.2</b> generalized numerical lifting-line solver (USU AeroLab, MIT License).</p>`
+      "About LocalMachX4",
+      `<p>LocalMachX4 — a local browser-based aircraft designer powered by the open-source <b>MachUpX v2.7.2</b> generalized numerical lifting-line solver (USU AeroLab, MIT License).</p>`
     );
   }
 }

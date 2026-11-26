@@ -1,4 +1,4 @@
-# MachUpX Local Aircraft Design GUI
+# LocalMachX4 — MachUp-Style Aircraft Design GUI
 
 A local, browser-based MachUp-style 3D aircraft design interface powered by the open-source **MachUpX** (`v2.7.2`) generalized numerical lifting-line solver (USU AeroLab, MIT License).
 
